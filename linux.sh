@@ -17,7 +17,7 @@ sudo apt install apache2
 sudo apt install apache2 php libapache2-mod-php
 
 # COMPOSER
-sudo apt install curl php-cli php-mbstringin unzip
+sudo apt install curl php-cli php-mbstring unzip
 cd ~
 curl -sS https://getcomposer.org/installer -o composer-setup.php
 sudo php composer-setup.php --install-dir=/usr/local/bin --filename=composer
